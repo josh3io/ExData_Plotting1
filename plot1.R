@@ -1,4 +1,4 @@
-library(data.table)
+require(data.table)
 DT <- data.table(read.table("household_power_consumption.txt",sep=";",header=TRUE))
 
 date1 <- as.Date("2007-02-01")
